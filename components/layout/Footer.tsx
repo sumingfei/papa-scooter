@@ -94,12 +94,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-white/10">
-        <div className="container-x flex flex-col gap-2 py-6 text-sm text-brand-200 sm:flex-row sm:justify-between">
+        <div className="container-x py-6 text-sm text-brand-200">
           <p>© {new Date().getFullYear()} Papa Scooter. All rights reserved.</p>
-          <p>
-            <Link href="/accessibility" className="hover:text-white">Accessibility</Link> ·{" "}
-            <a href="#" className="hover:text-white">Privacy</a> · <a href="#" className="hover:text-white">Terms</a>
-          </p>
         </div>
       </div>
     </footer>
